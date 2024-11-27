@@ -1,0 +1,23 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 3 entries, 0 to 2
+Data columns (total 3 columns):
+ #   Column  Non-Null Count  Dtype 
+---  ------  --------------  ----- 
+ 0   Name    3 non-null      object
+ 1   Age     3 non-null      int64 
+ 2   City    3 non-null      object
+dtypes: int64(1), object(2)
+memory usage: 204.0+ bytes
+
+         Name   Age      City
+count       3   3.0         3
+unique      3   NaN         3
+top     Alice   NaN  New York
+freq        1   NaN         1
+mean      NaN  30.0       NaN
+std       NaN   5.0       NaN
+min       NaN  25.0       NaN
+25%       NaN  27.5       NaN
+50%       NaN  30.0       NaN
+75%       NaN  32.5       NaN
+max       NaN  35.0       NaN
